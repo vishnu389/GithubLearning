@@ -18,7 +18,7 @@ public class BankManagerLoginTest extends TestBase {
 		
 		verifyEquals("abc", "xyz");
 		Thread.sleep(3000);
-		log.debug("Inside Login Test");  // this is log4j loggers things
+		log.debug("Inside Login Test");  // this is log4j loggers things present in it
 		log.info("logged in");
 		click("bmlBtn_CSS");
                 
