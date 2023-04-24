@@ -18,9 +18,9 @@ public class BankManagerLoginTest extends TestBase {
 		
 		verifyEquals("abc", "xyz");
 		Thread.sleep(3000);
-		log.debug("Inside Login Test");
+		log.debug("Inside Login Test");  // this is log4j loggers things
 		click("bmlBtn_CSS");
-
+                
 		Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCustBtn_CSS"))),"Login not successful");
 		
 		log.debug("Login successfully executed");
